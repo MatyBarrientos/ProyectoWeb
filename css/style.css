@@ -1,0 +1,59 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 1rem;
+    background-color: #4982fc;
+    color: white;
+}
+
+.logo img {
+    width: 180px; 
+    height: 160px; 
+  }
+  .logo{
+    margin: 10px;
+    padding: 5px;
+  }
+  
+
+.enlaces {
+    text-align: right;
+}
+
+.enlaces ul {
+    list-style: none;
+}
+
+.enlaces li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 1rem;
+    background-color: #4982fc;
+    color: white;
+}
+
+.leyenda {}
+
+.redes-sociales {
+    text-align: right;
+    
+}
+
+.redes-sociales ul {
+    list-style: none;
+    
+}
+
+.redes-sociales li {
+    display: inline;
+    
+    margin-right: 10px;
+    
+}
