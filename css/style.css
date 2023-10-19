@@ -27,7 +27,15 @@ header {
 
 .enlaces li {
     display: inline;
-    margin-right: 10px;
+    /* margin-right: 10px; */
+}
+.enlaces ul li a{
+    text-decoration:none ;
+    background-color: black;
+    color: azure;
+    padding: 5px;
+    /* margin: 5px; */
+    border-radius: 30px;
 }
 
 footer {
@@ -53,7 +61,34 @@ footer {
 
 .redes-sociales li {
     display: inline;
-    
     margin-right: 10px;
     
 }
+.Telefono{
+    padding: 25px;
+
+}
+.formulario{
+    padding: 25px;
+}
+
+
+
+#imagen1{
+    float: left;
+    box-sizing: border-box;
+
+}
+#imagen2{
+    float: right;
+    box-sizing: border-box;
+}
+#imagen1 img, #imagen2 img{
+    width: 600px;
+    height: 500px;
+}
+.portada img{
+    width: 1500px;
+    height: 900px;
+}
+
