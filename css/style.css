@@ -4,12 +4,9 @@
 
 body {
     width: 100%;
-    height: auto;
     padding: 0;
     margin: 0;
-
 }
-
 
 main {
 
@@ -22,6 +19,9 @@ main {
     overflow: hidden;
     background: linear-gradient(rgba(0, 58, 247, 0.925), rgba(144, 163, 245, 0.7));
 }
+
+
+
 
 
 .main-nav {
@@ -195,6 +195,10 @@ ul li a:active {
 .pie-pagina .grupo-2 small {
     font-size: 15px;
 }
+
+
+
+/* responsive */
 
 @media screen and (max-width:800px) {
 
