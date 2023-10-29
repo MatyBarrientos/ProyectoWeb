@@ -56,6 +56,18 @@ main {
     flex-direction: column;
 }
 
+.Gastronomia h1 {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Gastronomia p {
+    text-align: center;
+    font-size: 16px;
+
+}
+
 .tarjetasCentrales {
     /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url(""); */
@@ -236,6 +248,40 @@ main {
     padding: 1rem 0;
 }
 
-
-
 /* --> Terminan las actividades <-- */
+@media (max-width: 768px) {
+    .actividades {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* Centra los elementos horizontalmente */
+        align-items: center;
+        /* Centra los elementos verticalmente */
+    }
+
+    /* Estilos para la sección "Gastronomia" */
+    .Gastronomia {
+        display: flex;
+        flex-direction: column;
+        /* Apila los elementos verticalmente */
+        justify-content: center;
+        /* Centra los elementos horizontalmente */
+        align-items: center;
+        /* Centra los elementos verticalmente */
+    }
+
+    /* Estilos para los elementos internos, como las tarjetas o cajas, dentro de las secciones */
+    .container-actividad,
+    .containerCentrales {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* Centra los elementos horizontalmente */
+    }
+
+    .card {
+        margin: 10px;
+        /* Espacio entre las tarjetas */
+        text-align: center;
+    }
+}
