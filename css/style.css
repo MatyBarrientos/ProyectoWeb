@@ -16,14 +16,12 @@
 
 /* Reglas generales */
 * {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
 }
 
 body {
@@ -69,7 +67,7 @@ body {
     cursor: pointer;
     background-color: transparent;
     border: none;
-    cursor: pointer;
+    align-items: center;
     font-size: 24px;
     color: #ffffff;
 
@@ -91,6 +89,14 @@ body {
     margin-right: 100px;
     /* list-style: none; */
     /* chau puntitos */
+}
+
+ul {
+    transition: max-height 1s ease-out;
+    -webkit-transition: max-height 1s ease-out;
+    -moz-transition: max-height 1s ease-out;
+    -ms-transition: max-height 1s ease-out;
+    -o-transition: max-height 1s ease-out;
 }
 
 
@@ -126,51 +132,11 @@ ul li a:active {
 
 /*Fin Header/Barra de navegación */
 
-/* Main y contenedores */
 
-main {
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-main #myImage {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: relative;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
-.contenedor-main {
-    background: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-    color: #fff;
-    text-align: center;
-    padding-top: 300px;
-
-
-}
-
-/*Fin  Main y contenedores */
 
 /* Footer */
 .pie-pagina {
+    position: relative;
     width: 100%;
     background: linear-gradient(var(--blue-ribbon-400), var(--blue-ribbon-500));
 }
@@ -296,6 +262,8 @@ main #myImage {
     ul li a {
         padding: 10px;
     }
+
+
 
     .nav-link {
         display: none !important;
