@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+main {
+    height: 100%;
+    background-color: #8bc9ff;
+}
+
+/* Top panel (formulario) */
+.top-panel {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+
+.botton-panel {
+    width: auto;
+    height: auto;
+}
+
+.contact-form {
+    background-color: #badcff;
+    border-radius: 8px;
+    /*Cambiaelcolordefondodelformulario*/
+    padding: 30px;
+    /*Agregarellenoalformulario*/
+    ;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    padding: 15px 0;
+}
+
+.contact-form .form-group {
+    margin-bottom: 25px;
+    /* Espacio entre los campos del formulario */
+}
+
+.contact-form label {
+    font-weight: bold;
+    /* Estilo de las etiquetas del formulario */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="date"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    background-color: #eef7ff;
+    width: 100%;
+    /* Ancho completo para los campos del formulario */
+    padding: 10px;
+    /* Espaciado dentro de los campos del formulario */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    /* Borde de los campos del formulario */
+}
+
+
+
+.contact-form button {
+    width: auto;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 3px;
+    /*Colordeltextodelbotón*/
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+
+
+.contact-form button:hover {
+    background-color: #2d86ff;
+}
+
+.contact-form button:active {
+    background: #0c5ffa;
+    background-color: #0f4fe6;
+}
+
+/* Estilos para el medium-panel */
+.medium-panel {
+    width: 100%;
+    text-align: center;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: bold;
+
+}
+
+.phone {
+    padding: auto;
+    background-color: #badcff;
+}
+
+.medium-panel ul {
+    list-style: none;
+    padding: 15px 20px;
+
+}
+
+.medium-panel img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* Estilos para el bottom-panel */
+.bottom-panel {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .bottom-panel {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .medium-panel {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+}

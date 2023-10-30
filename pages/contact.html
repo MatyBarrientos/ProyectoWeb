@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_contact.css">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Contact</title>
 </head>
 
@@ -25,49 +27,62 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Formulario de Contacto</h2>
-                    <form>
-                        <div class="form-group">
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                        </div>
-                        <div class="form-group">
-                            <label for="apellido">Apellido:</label>
-                            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
-                        </div>
-                        <div class="form-group">
-                            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
-                            <input type="date" class="form-control" id="fechaNacimiento">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="comentario">Comentario:</label>
-                            <textarea class="form-control" id="comentario" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
-                </div>
-                <div class="col-md-6">
-                    <h2>Números de Contacto</h2>
-                    <ul>
-                        <li>Teléfono 1: (123) 456-7890</li>
-                        <li>Teléfono 2: (456) 789-0123</li>
-                        <!-- Agrega más números de teléfono aquí -->
-                    </ul>
-                </div>
+        <div class="top-panel">
+            <div class="contact-form">
+                <h2>Formulario de Contacto</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    </div>
+                    <div class="form-group">
+                        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                        <input type="date" class="form-control" id="fechaNacimiento">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="comentario">Comentario:</label>
+                        <textarea class="form-control" id="comentario" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </form>
             </div>
         </div>
+        <div class="medium-panel">
+            <article class="phone">
+
+                <h2>Teléfonos Útiles</h2>
+                <ul>
+                    <li>Secretaría de Turismo: Centro Cívico (0294) 4429850.</li>
+                    <li>Intendencia del parque nacional Nahuel Huapi: (0294) 4423111.</li>
+                    <li>Dirección de Vialidad Nacional (0294) 4422375.</li>
+                    <li>Bomberos: División Central de Alarma 100.</li>
+                    <li>Policía: Comando Radioeléctrico 101.</li>
+                    <li>Protección Civil: Emergencias 103 / (0294) 4428276.</li>
+                    <li>Hospital Zonal: Emergencias 107 | (0294) 4426119 | 4426100.</li>
+                    <li>Aeropuerto Internacional Bariloche (0294) 4405016.</li>
+                    <li>Terminal de Ómnibus Bariloche (0294) 4432860.</li>
+                    <li>Emprotur: Ente Mixto de Promoción Turística (0294) 4431484 | 4422484.</li>
+                    <li>Defensoría del Pueblo - Área Defensa Al Turista (0294) 4423147 / 4424121.</li>
+                </ul>
+            </article>
+
+        </div>
+        <div class="bottom-panel">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384678.94777660386!2d-71.66954725039724!3d-41.127883062137485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1698609482577!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
-
-
-
-
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
@@ -102,10 +117,6 @@
             <small>&copy; 2023 <b>Visite Bariloche</b> - Derechos Reservados.</small>
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="../js/header.js"></script>
 </body>
 

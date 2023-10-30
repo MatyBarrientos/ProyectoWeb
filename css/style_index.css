@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
 /* Main y contenedores */
 /* Main y contenedores */
 main {
@@ -23,11 +25,11 @@ main #myImage {
 }
 
 .contenedor-main {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     position: absolute;
     height: 100%;
     width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Dosis', sans-serif;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -36,6 +38,33 @@ main #myImage {
     text-align: center;
     padding-top: 300px;
 }
+
+.contenedor-main h1 {
+    font-size: 7rem;
+
+}
+
+.contenedor-main p {
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+
+.contenedor-main a {
+
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+        color 0.2s ease-out;
+
+}
+
+
 
 
 /*Fin  Main y contenedores */
